@@ -42,3 +42,9 @@ When WhatsApp is configured, the enquiry opens WhatsApp with the message prepare
 
 
 Version 7: packed-water product updated with transparent-background product image, default theme follows OS, manual theme changes saved.
+
+
+## Install as an app (PWA)
+Deploy the folder on HTTPS (such as Cloudflare Pages). Open the site in Chrome or Edge and use the browser Install app option. On Android use Install app/Add to Home screen; on iPhone Safari use Share > Add to Home Screen. Opening index.html directly from Downloads (file://) cannot register a service worker and is not sufficient for normal PWA installation. The app caches its static assets for offline viewing; sending enquiries still requires internet access and a configured contact method.
+
+Version 9: new full Mizbery logo on white install icon, reduced header/footer logo, cache version bumped to v9. Deploy over HTTPS and refresh/reinstall to see icon changes.

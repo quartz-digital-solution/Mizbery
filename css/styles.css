@@ -76,5 +76,5 @@ h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:Manrope,'DM Sans',sans-serif;letter
 .product-card-packed:hover .packed-product-image{transform:translateY(-6px)}
 @media(max-width:620px){.product-art-wrapped{inset:16px 8px 14px}}
 
-/* Compact brand mark */
-.brand{width:116px!important;height:68px!important}.brand-image{width:103px!important;max-height:66px!important}.footer-brand{width:110px!important;height:72px!important}.footer-logo{width:110px!important;max-height:72px!important}
+/* v9: slightly smaller Mizbery header and footer logo */
+.brand{width:116px!important;height:70px!important}.brand-image{width:105px!important;max-height:67px!important}.footer-brand{width:110px!important;height:72px!important}.footer-logo{width:108px!important;max-height:70px!important}@media(max-width:800px){.brand{height:66px!important}.brand-image{width:100px!important}}
