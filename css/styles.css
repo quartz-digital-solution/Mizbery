@@ -75,3 +75,6 @@ h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:Manrope,'DM Sans',sans-serif;letter
 .product-art-wrapped .packed-product-image{display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;transform:none;filter:drop-shadow(0 12px 14px rgba(0,0,0,.09));transition:transform .45s ease}
 .product-card-packed:hover .packed-product-image{transform:translateY(-6px)}
 @media(max-width:620px){.product-art-wrapped{inset:16px 8px 14px}}
+
+/* Compact brand mark */
+.brand{width:116px!important;height:68px!important}.brand-image{width:103px!important;max-height:66px!important}.footer-brand{width:110px!important;height:72px!important}.footer-logo{width:110px!important;max-height:72px!important}
